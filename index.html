@@ -35,7 +35,6 @@
     }
   </style>
 </head>
-
 <body class="font-lato">
   <!-- Header section -->
   <header class="bg-red-500 rounded-full flex justify-between h-32 items-center text-white px-16">
@@ -52,18 +51,67 @@
       <h1>Fruit Burst</h1>
     </div>
     <div>
-      <input class="border w-20 h-14 rounded-full ml-7 pl-4" type="text" placeholder="Search here">
+      <input class="border w-80 h-14 rounded-full ml-7 pl-4" type="text" placeholder="Search here">
     </div>
   </header>
   <main class="">
+    <!-- Banner slider section -->
     <section>
-      <div class="hero min-h-screen my-14 rounded-lg" style="background-image: url(images/banner4.png)">
-        <div class="hero-overlay bg-opacity-60"></div>
-        <div class="hero-content text-center text-neutral-content">
-          <div class="max-w-md">
-            <h1 class="mb-6 text-5xl font-bold">Exotic tastes at your doorstep</h1>
-            <p class="mb-5">We supply highly quality organic products</p>
-            <button class="btn btn-primary bg-red-500">Shop Now</button>
+      <div class="carousel w-full my-14">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="/images/banner1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+          <div class="hero-content text-center text-neutral-content absolute left-60 right-5 top-2 bottom-1 top-1/2 ">
+            <div class="max-w-md">
+              <h1 class="mb-6 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+              <p class="mb-5">We supply highly quality organic products</p>
+              <button class="btn btn-primary bg-red-500 border-0">Shop Now</button>
+            </div>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="/images/banner2.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+          <div class="hero-content text-center text-neutral-content absolute left-60 right-5 top-2 bottom-1 top-1/2 ">
+            <div class="max-w-md">
+              <h1 class="mb-6 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+              <p class="mb-5">We supply highly quality organic products</p>
+              <button class="btn btn-primary bg-red-500 border-0">Shop Now</button>
+            </div>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="/images/banner3.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+          <div class="hero-content text-center text-neutral-content absolute left-60 right-5 top-2 bottom-1 top-1/2 ">
+            <div class="max-w-md">
+              <h1 class="mb-6 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+              <p class="mb-5">We supply highly quality organic products</p>
+              <button class="btn btn-primary bg-red-500 border-0">Shop Now</button>
+            </div>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="/images/banner4.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+          <div class="hero-content text-center text-neutral-content absolute left-60 right-5 top-2 bottom-1 top-1/2 ">
+            <div class="max-w-md">
+              <h1 class="mb-6 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+              <p class="mb-5">We supply highly quality organic products</p>
+              <button class="btn btn-primary bg-red-500 border-0">Shop Now</button>
+            </div>
           </div>
         </div>
       </div>
@@ -177,7 +225,7 @@
         </div>
       </div>
       <div class="">
-        <button class="btn btn-primary bg-red-500 mt-3.5 mb-28">Shop All</button>
+        <button class="btn btn-primary bg-red-500 mt-3.5 mb-28 border-0">Shop All</button>
       </div>
     </section>
     <section>
@@ -192,7 +240,7 @@
           <div class="grid lg:grid-cols-4">
             <div class="card">
               <figure class="px-10 pt-10">
-                <img src="/images/member1.png" alt="Shoes" class="rounded-xl" />
+                <img src="/images/member1.png" alt="Member" class="rounded-xl" />
               </figure>
               <div class="card-body items-center text-center">
                 <h2 class="card-title text-2xl text-white">Awlad Hossain</h2>
@@ -206,7 +254,7 @@
             </div>
             <div class="card">
               <figure class="px-10 pt-10">
-                <img src="/images/member2.png" alt="Shoes" class="rounded-xl" />
+                <img src="/images/member2.png" alt="Member" class="rounded-xl" />
               </figure>
               <div class="card-body items-center text-center">
                 <h2 class="card-title text-2xl text-white">Awlad Hossain</h2>
@@ -220,7 +268,7 @@
             </div>
             <div class="card">
               <figure class="px-10 pt-10">
-                <img src="/images/member3.png" alt="Shoes" class="rounded-xl" />
+                <img src="/images/member3.png" alt="Member" class="rounded-xl" />
               </figure>
               <div class="card-body items-center text-center">
                 <h2 class="card-title text-2xl text-white">Awlad Hossain</h2>
@@ -234,7 +282,7 @@
             </div>
             <div class="card">
               <figure class="px-10 pt-10">
-                <img src="/images/member4.png" alt="Shoes" class="rounded-xl" />
+                <img src="/images/member4.png" alt="Member" class="rounded-xl" />
               </figure>
               <div class="card-body items-center text-center">
                 <h2 class="card-title text-2xl text-white">Awlad Hossain</h2>
@@ -253,7 +301,7 @@
       </div>
     </section>
   </main>
-  <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded bg-rose-950 text-white" style="
+  <footer class="footer footer-center p-10 bg-base-200 text-base-content bg-rose-950 text-white h-2/3" style="
   background: #121212;">
     <div class="flex items-center gap-x-4 text-4xl">
       <img class="w-12 h-14" src="images/logo.png" alt="">
